@@ -1,0 +1,7 @@
+services:
+  - type: web
+    name: whisparing-peer-server
+    env: node
+    buildCommand: npm install
+    startCommand: node peer-server.js
+    nodeVersion: 18.20.2
