@@ -10,7 +10,7 @@ function App() {
 
   useEffect(() => {
     const peer = new Peer(undefined, {
-      host: "whispaboard-peer-server.onrender.com",
+      host: "whisparing-peer-server.onrender.com",
       port: 443,
       secure: true,
       path: "/peerjs",
